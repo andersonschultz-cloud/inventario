@@ -1,0 +1,8980 @@
+[
+ {
+  "hostname": "adm1admoffice1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Plano de Segurança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "admoffice_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "adm1admofficeapp1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Plano de Segurança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "admofficeapp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "adm1cadarel1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Rendimentos",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "infrend_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "adm1cyber1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "cyber_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "adm1sefa1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "sefapr_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app0servcco001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wscontas_digital_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app0servcco002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "DESCONTINUANDO?",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": null,
+  "dominio": "filas_digital_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ctcorre005p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "app_doccomp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app0soacorp001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Esteira de crédito, eventos",
+  "tecnologias": [
+   "Oracle_SOA",
+   "Oracle_BAM",
+   "Oracle_OSB"
+  ],
+  "release": "BAM 11G | SOA 11G | OSB 11G | WLS 11G",
+  "dominio": "bam_domain, soacorp_domain, soabpel_domain, osbcorp_domain, eventos_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app0svcinbu001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Restritivos",
+  "tecnologias": [
+   "Spring"
+  ],
+  "release": "Necessário validar com time do GESRES/BUREAU",
+  "dominio": "spring_batch",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1admbnds1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "formalistica_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1admoffice1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Plano de Segurança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "admofficeapp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1admosr1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osr_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1admpcrd001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsprecificacao_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ancredt001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Analise",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsanaliserel_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ancredt002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Analise",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsanaliserel_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1anlcred001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsanalise_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1anlcred002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsanalise_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1anlcred003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsanalise_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1anlcred004p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "analise_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1cadarel1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contabilidade (controladoria, gestão financeira)",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G | WLS 11G",
+  "dominio": "cadarel_domain_infrend_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1cadpos3p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "cadpos_domain (pendente validar descontinuação, Vladimir Ramos)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1consbco001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wsconsbco_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1credoper001p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.3",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "appreccred_domain (Migração RHEL 9)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1credoper002p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.3",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "appreccred_domain (Migração RHEL 9)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1csrcext3p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_UCM"
+  ],
+  "release": null,
+  "dominio": "ecm_ecmportalext_domain",
+  "situacao": "Desligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ctcorre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wslegado_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ctcorre002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Tarifas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wstarifas_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ctrlalc001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsalcadas_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ctrlalc002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "alcada_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1cyberbt1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Batch_C"
+  ],
+  "release": "Release inferior a atual do provedor",
+  "dominio": "c_batch_cyber (serviços externos)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1cyberrc001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscyber_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1dashinf006p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "HAProxy",
+   "Keepalived"
+  ],
+  "release": "HA-Proxy version 1.5.18 | Keepalived v1.3.5",
+  "dominio": "ummagumma (monitor-infra)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1dashinf011p",
+  "time": "ECER",
+  "versao_so": "RedHat-8.10",
+  "tipo_so": "RHEL",
+  "negocio": "Gráficos investimento, caixa, rsa, caixa",
+  "tecnologias": [
+   "Grafana"
+  ],
+  "release": "Version 9.3.2",
+  "dominio": "grafana",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1dircorp001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "HAProxy",
+   "Varnish-Cache",
+   "Keepalived"
+  ],
+  "release": "HA-Proxy version 1.5.18 | varnish-6.0.8 | Keepalived v1.3.5",
+  "dominio": "Cachecorp",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1doccorp001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Somente SO"
+  ],
+  "release": null,
+  "dominio": "vazio",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1crtcobr002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ccor_nne",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2crtcobr002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ccor_nne",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "adm1compcc1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "compcc_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1compcc1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "compcc_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2compcc2p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "compcc_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1anlcred001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Contas",
+  "tecnologias": [
+   "HAProxy",
+   "Varnish-Cache",
+   "Keepalived"
+  ],
+  "release": "HA-Proxy version 1.5.18 | varnish-6.0.2 | Keepalived v1.3.5",
+  "dominio": "ContaCorrente",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2anlcred001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Contas",
+  "tecnologias": [
+   "HAProxy",
+   "Varnish-Cache",
+   "Keepalived"
+  ],
+  "release": "HA-Proxy version 1.5.18 | varnish-6.0.2 | Keepalived v1.3.5",
+  "dominio": "ContaCorrente",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ssobper002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "contas_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ssobper002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "contas_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ctcorre006p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "contas12c2_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servccs001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "contas12c2_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ctcorre006p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "contas12c2_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servccs001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "contas12c2_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ecm1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_UCM"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ecm_ecmbusiness_domain_ecmportal_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ecm3p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_UCM"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ecm_ecmbusiness_domain_ecmportal_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1emprest001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_credcanais_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1enginec001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contabilidade (controladoria, gestão financeira)",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "enginecontabil_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1estcont001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wlscomp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1estcred001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": null,
+  "dominio": "wscredito_domain (DESLIGADO)",
+  "situacao": "Desligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1estsiac001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "esteira_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1estsiac002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osbesteira_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1estsiac003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsesteira_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1estsiac004p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "SRE_Observabilidade",
+  "tecnologias": [
+   "Grafana"
+  ],
+  "release": "Version 8.1.2",
+  "dominio": "grafana",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1fobndes001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "formalistica_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1fobndes002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "formalistica_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1forcons001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Consórcio",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soaformcons_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1frtalve002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "app_alienacaoveiculos_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1frtalve003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "ws_alienacaoveiculos_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1geocred002p",
+  "time": "ECER",
+  "versao_so": "RedHat-8.8",
+  "tipo_so": "RHEL",
+  "negocio": "ArcGIS",
+  "tecnologias": [
+   "Nginx"
+  ],
+  "release": "nginx/1.14.1",
+  "dominio": "arcgis",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gestlim001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.2",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_gestlimi_domain (DESLIGADO)",
+  "situacao": "Desligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gestlimi1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Gestão de Limites",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "app_gestlimi_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gestres002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gestres003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gestres004p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gestres005p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gestres006p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gestres007p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gestres008p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstappd004p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "SRE_Observabilidade",
+  "tecnologias": [
+   "Virtual_Workstation"
+  ],
+  "release": null,
+  "dominio": "custom_tcptrace",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstappd005p",
+  "time": "ECER",
+  "versao_so": "Rocky-8.10",
+  "tipo_so": "Rocky",
+  "negocio": "Infraestrutura_Corporativa",
+  "tecnologias": [
+   "Virtual_Workstation"
+  ],
+  "release": null,
+  "dominio": "wts_linux",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstasoa001p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soascomp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstasoa003p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Database"
+  ],
+  "release": "jboss-5.1.0",
+  "dominio": "infrasoadb",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstasoa006p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebCenter"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wccmigracao_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstasoa008p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Documentos",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "frontged_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstdoct001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Documentos",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "capturaweb_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstdoct002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Documentos",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "capturaweb_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstlimi001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Limites",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "gestlimirel_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gwneuro001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Apache_Tomcat"
+  ],
+  "release": null,
+  "dominio": "neurotech",
+  "situacao": "Removido",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1indliqu001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Índice de Liquidez",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wsindliq12C2_domain (ETL Java 8)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1infrend1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Rendimentos",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "infrend_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1limcaut001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Limites",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_motorcalc_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1limcaut002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Limites",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_motorcalc_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1limites1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Limites",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "app_limites_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1macmoni001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.6",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "infra_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1modua3p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "OC4J"
+  ],
+  "release": "Sem suporte",
+  "dominio": "ModuloUA",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1modua5p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "OC4J"
+  ],
+  "release": "Sem suporte",
+  "dominio": "ModuloUA",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1modua7p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "OC4J"
+  ],
+  "release": "Sem suporte",
+  "dominio": "ModuloUA",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1modua9p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "OC4J"
+  ],
+  "release": "Sem suporte",
+  "dominio": "ModuloUA",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1modulua001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Cadastro, Cobrança",
+  "tecnologias": [
+   "HAProxy",
+   "Keepalived"
+  ],
+  "release": "HA-Proxy version 1.5.18 | Keepalived v1.3.5",
+  "dominio": "Cadastro, Cobrança",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1monisoa001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wscorp12c_doamin",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1oer1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Arquitetura",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G | WLS 12.1",
+  "dominio": "bip_domain, oer_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1osbcorp002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_Service_Bus"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "osbcorp12c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1osbcred1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_Service_Bus"
+  ],
+  "release": "WLS 11G",
+  "dominio": "app1osbcred1p",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1osbrisco1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osbrisco_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1osr1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osr_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1platcad001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_Service_Bus"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "osb3c_domain, soa3c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1platcad002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "soa3c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1platcad003p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "soa3c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1platcad008p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "ws_mua_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1platrec001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wsreccred_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1platrec002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "appreccred_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1platrec003p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "osbcred12c2_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1portagr001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "credito_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1prdcred1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "app_prdcred_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1precpro001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wscred12c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1precpro003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wsprecificacao12c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1precpro005p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wsreccred_domain",
+  "situacao": "Remover (validar)",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1raterec001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "SRE_Observabilidade",
+  "tecnologias": [
+   "Grafana",
+   "InfluxDB"
+  ],
+  "release": "Version 4.4.3 | InfluxDB v1.3.4",
+  "dominio": "repositorio_cor_gac",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1raterec003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "SRE_Observabilidade",
+  "tecnologias": [
+   "Grafana"
+  ],
+  "release": "Version 6.7.0 | Apache/2.4.34",
+  "dominio": "grafana",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1rdcolab002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Rede colaborativa",
+  "tecnologias": [
+   "Oracle_WebCenter"
+  ],
+  "release": "WLS 11G",
+  "dominio": "webcenter",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1rdcolab003p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Rede colaborativa",
+  "tecnologias": [
+   "Oracle_WebCenter"
+  ],
+  "release": "WLS 11G",
+  "dominio": "webcenter",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1relcrd1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "relcrd_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1restbat1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1risco1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsrisco_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1riskcnt002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contabilidade (controladoria, gestão financeira)",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_lavdinhe_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1sap006p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Administrativo",
+  "tecnologias": [
+   "Oracle_Service_Bus"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osbadm_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servbur001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osbbureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servbur002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osbbureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ctcorre003p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_Service_Bus"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osbcontas_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ctcorre003p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_Service_Bus"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osbcontas_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcco001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wscontas_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcco003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wscred12c2_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Comunicados",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "osbcomunicados_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcrp002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcrp003p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcrp004p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcrp005p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcrp006p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Comunicados",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "osb-comunicados",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcrp014p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Cadastro, Cobrança",
+  "tecnologias": [
+   "Varnish-Cache"
+  ],
+  "release": "varnish-6.0.0",
+  "dominio": "Cadastro, Cobrança",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcrp016p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "HAProxy",
+   "Varnish-Cache",
+   "Keepalived"
+  ],
+  "release": "HA-Proxy version 1.5.18 | varnish-6.0.2 | Keepalived v1.3.5",
+  "dominio": "/EstruturaOrganizacionalService",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcrp018p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "frontcorp12c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcrp026p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "corp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcrp027p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Tomcat"
+  ],
+  "release": "tomcat-8.5.33",
+  "dominio": "worklist",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcrp028p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo, Documentos",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ecm_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcrp029p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcrp030p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcus001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wscustodia12c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servdcr001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wscredito12c2_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servdcr002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Motor de Cálculo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "ws_motorcalc12C2_domain (ETL Java 8)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servdcr003p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Esteira de crédito, eventos",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wsesteira12C2_domain (ETL Java 8)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servdcr004p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Gestão de Limites",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "ws_gestlimi12c2_domain (ETL Java 8)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servdcr005p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscredito_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servdcr006p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscredito_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servdcr007p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscredito_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servdcr008p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscredito_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servdre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "appreccred_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servfbn001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Somente SO"
+  ],
+  "release": null,
+  "dominio": "vazio",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servpla001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "Oracle_Service_Bus"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "osb3cmua_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1siscrbn004p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "BNDES",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wsbndes12c2_domain (ETL Java 8)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soabpel001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soabpel_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soabpel002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soabpel_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soacorp001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Esteira de crédito, eventos",
+  "tecnologias": [
+   "Oracle_BAM"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bam_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soacorp002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "BAM",
+  "tecnologias": [
+   "Oracle_BAM"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bam_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soacorp003p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soacorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soacorp004p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soacorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soacorp005p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soacorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soacorp006p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soacorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soacorp007p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soacorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soacorp008p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soacorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soamonit1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "RedHat_Jboss"
+  ],
+  "release": "AppServer baixado",
+  "dominio": "monitor-soa",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soatols002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "RedHat_Jboss"
+  ],
+  "release": "jboss-5.1.0",
+  "dominio": "monitor-soa",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soautil1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G | OSB 11G",
+  "dominio": "eventos_domain, osbcorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1soautil3p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G | OSB 11G",
+  "dominio": "eventos_domain, osbcorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1srvappf001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsbndes_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1srvappf002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsbndes_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1srvcrre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsrecor_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1svcinbu001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Apache_Tomcat"
+  ],
+  "release": "tomcat-7.0.96",
+  "dominio": "monitoramento_bureau",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1svcinbu002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "batchbureau12c2_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1svconve001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wsprovadevida_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1topaztr002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Lavagem de Dinheiro",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "pld_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1wcrcext1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Rede colaborativa",
+  "tecnologias": [
+   "Oracle_WebCenter"
+  ],
+  "release": "WLS 11G",
+  "dominio": "webcenter_webcenterext_domain",
+  "situacao": "Removido",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1wcrcext3p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Rede colaborativa",
+  "tecnologias": [
+   "Oracle_WebCenter"
+  ],
+  "release": "WLS 11G",
+  "dominio": "webcenter_webcenterext_domain",
+  "situacao": "Removido",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1wlcyber1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "cyber_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1wlsefa1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "sefapr_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1wscadastro1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Cadastro",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscadastro_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1wscadastro3p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Cadastro",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscadastro_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1wscred1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscredito_domain",
+  "situacao": "Desligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ancredt001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Analise",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsanaliserel_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ancredt002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Analise",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsanaliserel_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2anlcred001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsanalise_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2anlcred002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsanalise_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2anlcred003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Analise",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsanalise_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2anlcred004p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "analise_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2cadarel2p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contabilidade (controladoria, gestão financeira)",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "cadarel_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2cadpos4p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "cadpos_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2compimg001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "app_doccomp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2consbco001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wsconsbco_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2credoper001p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.3",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "appreccred_domain (Migração RHEL 9)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2credoper002p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.3",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "appreccred_domain (Migração RHEL 9)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2csrcext4p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_UCM"
+  ],
+  "release": null,
+  "dominio": "ecm_ecmportalext_domain",
+  "situacao": "Desligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ctcorre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wslegado_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ctcorre002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Tarifas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wstarifas_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ctrlalc001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsalcadas_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ctrlalc002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "alcada_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2cyberbt2p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Batch_C"
+  ],
+  "release": "Release inferior a atual do provedor",
+  "dominio": "c_batch_cyber (serviços externos)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2cyberrc001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscyber_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2cyberrc002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Restritivos",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "cyber_domain (serviços externos)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2dashinf003p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "HAProxy",
+   "Keepalived"
+  ],
+  "release": "HA-Proxy version 1.5.18 | Keepalived v1.3.5",
+  "dominio": "ummagumma (monitor-infra)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2dircorp001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "HAProxy",
+   "Varnish-Cache",
+   "Keepalived"
+  ],
+  "release": "HA-Proxy version 1.5.18 | varnish-6.0.8 | Keepalived v1.3.5",
+  "dominio": "Cachecorp",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ecm2p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_UCM"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ecm_ecmbusiness_domain_ecmportal_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ecm4p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_UCM"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ecm_ecmbusiness_domain_ecmportal_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2emprest001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_credcanais_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2enginec001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contabilidade (controladoria, gestão financeira)",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "enginecontabil_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2estcont001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wlscomp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2estcred001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscredito_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2estsiac001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "esteira_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2estsiac002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osbesteira_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2estsiac003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsesteira_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2fobndes001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "formalistica_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2fobndes002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "formalistica_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2forcons001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Consórcio",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soaformcons_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2frtalve002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "app_alienacaoveiculos_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2frtalve003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "ws_alienacaoveiculos_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gestlim001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.2",
+  "tipo_so": "RHEL",
+  "negocio": "Limites",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_gestlimi_domain",
+  "situacao": "Desligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gestlimi2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Limites",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "app_gestlimi_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gestres001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gestres002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gestres003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gestres004p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gestres005p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gestres006p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gestres007p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Desligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gstasoa001p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soascomp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gstasoa003p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Documentos",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "frontged_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gstdoct001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Documentos",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "capturaweb_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gstdoct002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Documentos",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "capturaweb_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gstlimi001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Limites",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "gestlimirel_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gwneuro004p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Gateway Neurotech",
+  "tecnologias": [
+   "Apache_Tomcat"
+  ],
+  "release": null,
+  "dominio": "neurotech",
+  "situacao": "Removido",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2indliqu001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Índice de Liquidez",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wsindliq12C2_domain (ETL Java 8)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2infrend2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contabilidade (controladoria, gestão financeira)",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "infrend_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2limcaut001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contabilidade (controladoria, gestão financeira)",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_motorcalc_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2limcaut002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contabilidade (controladoria, gestão financeira)",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "app_motorcalc_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2limites2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Limites",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "app_limites_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2modua4p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "OC4J"
+  ],
+  "release": "Sem suporte",
+  "dominio": "ModuloUA",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2modua6p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "OC4J"
+  ],
+  "release": "Sem suporte",
+  "dominio": "ModuloUA",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2modua8p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "OC4J"
+  ],
+  "release": "Sem suporte",
+  "dominio": "ModuloUA",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2modulua001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Cadastro, Cobrança",
+  "tecnologias": [
+   "HAProxy",
+   "Keepalived"
+  ],
+  "release": "HA-Proxy version 1.5.18 | Keepalived v1.3.5",
+  "dominio": "Cadastro, Cobrança",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2monisoa001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wscorp12c_doamin",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2oer2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Arquitetura",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "oer_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2osbcorp002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "osbcorp12c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2osbcred2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osbcred_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2osbrisco2p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osbrisco_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2osr2p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osr_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2platcad004p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "soa3c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2platcad005p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "soa3c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2platcad010p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "ws_mua_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2platrec001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wsreccred_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2platrec002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "appreccred_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2platrec003p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "osbcred12c2_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2portagr001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "credito_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2prdcred2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "app_prdcred_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2precpro001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wscred12c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2precpro002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsprecificacao_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2precpro003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wsprecificacao12c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2precpro009p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wsreccred_domain",
+  "situacao": "Remover (validar)",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2rdcolab002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebCenter"
+  ],
+  "release": "WLS 11G",
+  "dominio": "webcenter_webcenter_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2rdcolab003p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebCenter"
+  ],
+  "release": "WLS 11G",
+  "dominio": "webcenter_webcenter_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2risco2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebCenter"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsrisco_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2riskcnt002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Lavagem de Dinheiro",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "pld_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2sap005p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Administrativo",
+  "tecnologias": [
+   "Oracle_Service_Bus"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osbadm_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servbur001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osbbureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servbur002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "osbbureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcar001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscartoes_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcar002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscartoes_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcar003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscartoes_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcco001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wscontas_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcco006p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wscred12c2_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "osbcomunicados_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcre002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscredito_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcre003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscredito_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcre004p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscredito_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcre005p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscredito_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcrp002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcrp003p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcrp004p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcrp005p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gestrcd002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_contacorrente_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcrp006p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.6",
+  "tipo_so": "RHEL",
+  "negocio": "Comunicados",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "osb-comunicados",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcrp007p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "notificacao_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcrp013p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Cadastro, Cobrança",
+  "tecnologias": [
+   "Varnish-Cache"
+  ],
+  "release": "varnish-6.0.0",
+  "dominio": "Cadastro, Cobrança",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcrp014p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "frontcorp12c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcrp016p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "HAProxy",
+   "Varnish-Cache",
+   "Keepalived"
+  ],
+  "release": "HA-Proxy version 1.5.18 | varnish-6.0.2 | Keepalived v1.3.5",
+  "dominio": "/EstruturaOrganizacionalService",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcrp025p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "corp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcrp026p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Tomcat"
+  ],
+  "release": "tomcat-8.5.33",
+  "dominio": "worklist",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcrp027p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcrp028p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcus001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wscustodia12c_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servdcr001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Motor de Cálculo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "ws_motorcalc12C2_domain (ETL Java 8)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servdcr002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Esteira de crédito, eventos",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wsesteira12C2_domain (ETL Java 8)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servdcr003p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Gestão de Limites",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "ws_gestlimi12c2_domain (ETL Java 8)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servdre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "appreccred12c2_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servfbn001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Somente SO"
+  ],
+  "release": null,
+  "dominio": "vazio",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servpla001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.3",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "Oracle_Service_Bus"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "osb3cmua_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2siscrbn004p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "BNDES",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wsbndes12c2_domain (ETL Java 8)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2soabpel001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soabpel_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2soabpel002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soabpel_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2soacorp001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "BAM",
+  "tecnologias": [
+   "Oracle_BAM"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bam_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2soacorp002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "BAM",
+  "tecnologias": [
+   "Oracle_BAM"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bam_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2soacorp003p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soacorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2soacorp004p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soacorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2soacorp005p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soacorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2soacorp006p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soacorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2soacorp007p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soacorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2soacorp008p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Corporativo, Crédito",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "WLS 11G",
+  "dominio": "soacorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2soautil2p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G | OSB 11G",
+  "dominio": "eventos_domain, osbcorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2soautil4p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G | OSB 11G",
+  "dominio": "eventos_domain, osbcorp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2srvappf001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsbndes_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2srvappf002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsbndes_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2srvcrre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Legislativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsrecor_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2svcinbu001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "bureau_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2svcinbu002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "batchbureau12c2_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2svconve001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wsprovadevida_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2topaztr001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Legislação",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "pld_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ucm2p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ecm_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2wcrcext2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebCenter"
+  ],
+  "release": "WLS 11G",
+  "dominio": "webcenter_webcenterext_domain",
+  "situacao": "Desligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2wcrcext4p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebCenter"
+  ],
+  "release": "WLS 11G",
+  "dominio": "webcenter_webcenterext_domain",
+  "situacao": "Desligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2wlcyber2p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "cyber_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2wlsefa2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "sefapr_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2wscadastro2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Cadastro",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscadastro_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2wscadastro4p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Cadastro",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscadastro_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "dtb1geocred002p",
+  "time": "ECER",
+  "versao_so": "RedHat-8.8",
+  "tipo_so": "RHEL",
+  "negocio": "ArcGIS",
+  "tecnologias": [
+   "Database"
+  ],
+  "release": null,
+  "dominio": "db_arcgis",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "modua11",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "OC4J"
+  ],
+  "release": "Sem suporte",
+  "dominio": "ModuloUA",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "modua1-uat",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "OC4J"
+  ],
+  "release": "Sem suporte",
+  "dominio": "ModuloUA",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "modua21",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "OC4J"
+  ],
+  "release": "Sem suporte",
+  "dominio": "ModuloUA",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "modua2-uat",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "OC4J"
+  ],
+  "release": "Sem suporte",
+  "dominio": "ModuloUA",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web0platrec001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito Imobiliário (validar com samuel_schaffer)",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "web1credimob1p",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1admoffice1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Administrativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "segpatrimonial",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1bobndes001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws-bndes12c",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1cadpos1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "cadpos",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1cred1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.3",
+  "dominio": "webcred",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1cyberrc001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws-cyber",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1enginec001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contabilidade (controladoria, gestão financeira)",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "engcontabil",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1enginec002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contabilidade (controladoria, gestão financeira)",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws-engcontabil",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1estcont001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.6",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "processos-retaguarda (soascomp)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1estsiac001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "esteira",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1estsiac002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "osb-esteira",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1geocred003p",
+  "time": "ECER",
+  "versao_so": "RedHat-8.9",
+  "tipo_so": "RHEL",
+  "negocio": "ArcGIS",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "0",
+  "dominio": "arcgis",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1gestrcd001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.2",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "osbbureau",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1gestres001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws-bureau",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1gestres002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "bureau",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1gstappd008p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "osbbureau",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1gstasoa001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "worklist",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1gstdoct001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "segcorp",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1gstdoct002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.6",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "segcorp",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1oer1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.4",
+  "tipo_so": "RHEL",
+  "negocio": "Arquitetura",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "oer",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1portagr001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "agro",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1rccred1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.4",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "gestlimi",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1rcext1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": null,
+  "dominio": "redecolab_mobi",
+  "situacao": "Desligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1rcsoa1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.4",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "frontcorp",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1rest3p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.3",
+  "dominio": "neurotech",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1servcre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws_proagro_wscred12c",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1servcrp001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "rdcolab",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1servdcr001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws_geocreditoagricola",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1servdre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "recuperacaocredito",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1ses1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.3",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "ses",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1siacsis002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Legislativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "mda",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1soacorp001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "soa",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1srvcrre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Legislativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws-recor",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1ssobper001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "sobras",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1estcont002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsscomp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1svconve002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "nai",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1varnishsoa1p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Varnish-Cache"
+  ],
+  "release": "varnish-4.0.5",
+  "dominio": "RedeColaborativa",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1wscred1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.6",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "ws_canais_osb-credito12c",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2admoffice2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Administrativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "segpatrimonial",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2anlcred002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "vazio",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2bobndes001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws-bndes12c",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gestrcd001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Conta corrente",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_contacorrente_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcus002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "ws_contas_nc_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcus002p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "ws_contas_nc_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ctcorre004p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_doccomp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ctcorre005p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_doccomp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ctcorre004p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_doccomp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2cadpos2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "cadpos",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2cred2p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.3",
+  "dominio": "webcred",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2cyberrc001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws-cyber",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2enginec001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contabilidade (controladoria, gestão financeira)",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws-engcontabil",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2enginec002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.3",
+  "tipo_so": "RHEL",
+  "negocio": "Contabilidade (controladoria, gestão financeira)",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "engcontabil",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2estcont001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.6",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "processos-retaguarda (soascomp)",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2estsiac001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "esteira",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2estsiac002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "osb-esteira",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2gestres001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.7",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "osbbureau",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2gestres002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws-bureau",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2gestres003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "bureau",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2gstappd002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "osbbureau",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2gstasoa001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.8",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "worklist",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2gstdoct001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.6",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "segcorp",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2gstdoct002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.6",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "segcorp",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2oer2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Arquitetura",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "oer",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2portagr001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.3",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "agro",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2rccred2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.4",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "gestlimi",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2rcext2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": null,
+  "dominio": "redecolab_mobi",
+  "situacao": "Desligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2rcsoa2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.4",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "frontcorp",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1ssobper003p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "wscontas",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2ssobper002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "wscontas",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2rest4p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.3",
+  "tipo_so": "RHEL",
+  "negocio": "Risco",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": null,
+  "dominio": "neurotech",
+  "situacao": "Removido",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1ssobper001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wscontas_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcco005p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wscontas_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2ssobper001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.1",
+  "dominio": "wscontas_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2servcre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws_proagro_wscred12c",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2servcrp001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "rdcolab",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcco005p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wscontas_saque_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcco003p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12.2",
+  "dominio": "wscontas_saque_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcco004p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": null,
+  "dominio": "wscontas11g_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcco002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.4",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": null,
+  "dominio": "wscontas11g_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2servcco004p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.4",
+  "tipo_so": "RHEL",
+  "negocio": "Contas (desativado?)",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": null,
+  "dominio": "wscontas11g_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws1contaspg1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscontaspg_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws2contaspg2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscontaspg_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2servdcr001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.2",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws_geocreditoagricola",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2servdre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "recuperacaocredito",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2ses2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.3",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "ses",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2siacsis001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Legislativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "mda",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2soacorp001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "soa",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2srvcrre001p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.5",
+  "tipo_so": "RHEL",
+  "negocio": "Legislativo",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws-recor",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws2custodia2p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wscustodia_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2ssobper001p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "sobras",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2svconve002p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "nai",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2varnishsoa2p",
+  "time": "ECER",
+  "versao_so": "RedHat-7.6",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Varnish-Cache"
+  ],
+  "release": "varnish-4.0.5",
+  "dominio": "RedeColaborativa",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2wscred2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.6",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "ws_canais_osb-credito12c",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "wls1admoffice1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Plano de Segurança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "admoffice_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws1chleg1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "DESCONTINUADO",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": null,
+  "dominio": "PGDM-78438",
+  "situacao": "Removido",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws1credcanais1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_credcanais_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws1gestlimi1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_gestlimi_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws1integra1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "gestaoprocessos_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws1legado1p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wslegado_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws1legado7p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wslegado_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws1limites1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_limites_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws1pld1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Legislação",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "pld_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws1prdcred1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_prdcred_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws1redecol1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsredecol_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws2chleg2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "DESCONTINUADO",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": null,
+  "dominio": "PGDM-78438",
+  "situacao": "Removido",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws2gestlimi2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_gestlimi_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws2indliq2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Índice de Liquidez",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsindliq_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws2integra2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "gestaoprocessos_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws2legado2p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wslegado_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws2legado8p",
+  "time": "ECER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wslegado_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1wsscomp1p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsscomp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2estcont002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Esteira de contas",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsscomp_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws2limites2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_limites_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws2prdcred2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_prdcred_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws2redecol2p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsredecol_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "wts1gstappd003p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Infraestrutura_Corporativa",
+  "tecnologias": [
+   "Virtual_Workstation"
+  ],
+  "release": null,
+  "dominio": "wts_linux",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "wts1vmsmidd001p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.4",
+  "tipo_so": "RHEL",
+  "negocio": "Infraestrutura_Corporativa",
+  "tecnologias": [
+   "Virtual_Workstation"
+  ],
+  "release": null,
+  "dominio": "wts_core_credito",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "wts2apiutil001p",
+  "time": "ECER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Infraestrutura_Corporativa",
+  "tecnologias": [
+   "Virtual_Workstation"
+  ],
+  "release": null,
+  "dominio": "wts_zancan",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "wts2gstappd002p",
+  "time": "ECER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Infraestrutura_Corporativa",
+  "tecnologias": [
+   "Virtual_Workstation"
+  ],
+  "release": null,
+  "dominio": "wts_desenvolvimento",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gstappd003p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.5",
+  "tipo_so": "RHEL",
+  "negocio": "Gestão de garantias",
+  "tecnologias": [
+   "RedHat_Wildfly"
+  ],
+  "release": "wildfly-11.0.0",
+  "dominio": "gesgara",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gstappd002p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.5",
+  "tipo_so": "RHEL",
+  "negocio": "Gestão de garantias",
+  "tecnologias": [
+   "RedHat_Wildfly"
+  ],
+  "release": "wildfly-11.0.0",
+  "dominio": "gesgara",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstappd008p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.5",
+  "tipo_so": "RHEL",
+  "negocio": "Gestão de garantias",
+  "tecnologias": [
+   "RedHat_Wildfly"
+  ],
+  "release": "wildfly-11.0.0",
+  "dominio": "gesgara",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstappd007p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.5",
+  "tipo_so": "RHEL",
+  "negocio": "Gestão de garantias",
+  "tecnologias": [
+   "RedHat_Wildfly"
+  ],
+  "release": "wildfly-11.0.0",
+  "dominio": "gesgara",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstappd009p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "HAProxy"
+  ],
+  "release": "HAProxy version 2.8.14-c23fe91",
+  "dominio": "Cachecorp V2",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstappd006p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "HAProxy"
+  ],
+  "release": "HAProxy version 2.8.14-c23fe91",
+  "dominio": "Cachecorp V2",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gstappd001p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "HAProxy"
+  ],
+  "release": "HAProxy version 2.8.14-c23fe91",
+  "dominio": "Cachecorp V2",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gstappd004p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "HAProxy"
+  ],
+  "release": "HAProxy version 2.8.14-c23fe91",
+  "dominio": "Cachecorp V2",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1gstappd010p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Varnish-Cache"
+  ],
+  "release": "varnish-6.6.2",
+  "dominio": "Cachecorp V2",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2gstappd005p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Corporativo",
+  "tecnologias": [
+   "Varnish-Cache"
+  ],
+  "release": "varnish-6.6.2",
+  "dominio": "Cachecorp V2",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1credoper013p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_gestlimi_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1credoper014p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_gestlimi_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1credoper015p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_gestlimi_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1credoper016p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_gestlimi_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2credoper013p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_gestlimi_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2credoper014p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_gestlimi_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2credoper015p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_gestlimi_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2credoper016p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.6",
+  "tipo_so": "RHEL",
+  "negocio": "Crédito",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_gestlimi_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1credoper007p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.5",
+  "tipo_so": "RHEL",
+  "negocio": "Regulatório",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_lavdinhe_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1credoper008p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.5",
+  "tipo_so": "RHEL",
+  "negocio": "Regulatório",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_lavdinhe_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1credoper009p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.5",
+  "tipo_so": "RHEL",
+  "negocio": "Regulatório",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_lavdinhe_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1credoper010p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.5",
+  "tipo_so": "RHEL",
+  "negocio": "Regulatório",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_lavdinhe_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2credoper007p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.5",
+  "tipo_so": "RHEL",
+  "negocio": "Regulatório",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_lavdinhe_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2credoper008p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.5",
+  "tipo_so": "RHEL",
+  "negocio": "Regulatório",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_lavdinhe_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2credoper009p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.5",
+  "tipo_so": "RHEL",
+  "negocio": "Regulatório",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_lavdinhe_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2credoper010p",
+  "time": "ECER",
+  "versao_so": "RedHat-9.5",
+  "tipo_so": "RHEL",
+  "negocio": "Regulatório",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_lavdinhe_domain",
+  "situacao": "Ligado",
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1bpeltra001p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas, Convênios",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "SOA 11G",
+  "dominio": "bpeltrans_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1bpeltra002p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas, Convênios",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "SOA 11G",
+  "dominio": "bpeltrans_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1bpeltrans1p",
+  "time": "DCPER",
+  "versao_so": "RedHat-5.11",
+  "tipo_so": "RHEL",
+  "negocio": "Contas, Convênios",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "SOA 11G",
+  "dominio": "bpeltrans_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2bpeltra001p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas, Convênios",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "SOA 11G",
+  "dominio": "bpeltrans_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2bpeltra002p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas, Convênios",
+  "tecnologias": [
+   "Oracle_SOA"
+  ],
+  "release": "SOA 11G",
+  "dominio": "bpeltrans_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1crtcobr001p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "cobrancaonline",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2crtcobr001p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "cobrancaonline",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1contaspg1p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "contasapagar",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2contaspg2p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "contasapagar",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1contaspg1p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "contaspg_domain e wscontaspg_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2contaspg2p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "contaspg_domain e wscontaspg_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "adm1contaspg1p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "contaspg_domain e wscontaspg_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1convenios1p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "convenios",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2convenios2p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "convenios",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1osbconv1p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_Service_Bus"
+  ],
+  "release": "OSB 11G",
+  "dominio": "osbconv_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2osbconv2p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_Service_Bus"
+  ],
+  "release": "OSB 11G",
+  "dominio": "osbconv_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1crtcobr002p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_cobranca11gdg_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2crtcobr002p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "ws_cobranca11gdg_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1crtcobr001p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G /12G",
+  "dominio": "wscobranca11g_domain e ws_cobranca_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2crtcobr001p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G /12G",
+  "dominio": "wscobranca11g_domain, ws_cobranca_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2siccobi007p",
+  "time": "DCPER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12",
+  "dominio": "wscobranca12c2_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1siccobi007p",
+  "time": "DCPER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12",
+  "dominio": "wscobranca12c2_domain (ETL Java 8)",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1wscontaspg1p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "ws-contasapagar",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2wscontaspg2p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Contas",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.2.15",
+  "dominio": "ws-contasapagar",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1svconve002p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12",
+  "dominio": "wsconvenio12c_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2svconve002p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.2",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12",
+  "dominio": "wsconvenio12c_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1servcco002p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12",
+  "dominio": "wsconvenios_digital_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1coninss001p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsconvenios_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1svconve003p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsconvenios_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1svconve004p",
+  "time": "DCPER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsconvenios_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2coninss001p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsconvenios_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2svconve003p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.4",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsconvenios_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2svconve004p",
+  "time": "DCPER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsconvenios_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws1convenios1p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsconvenios_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "ws2convenios2p",
+  "time": "DCPER",
+  "versao_so": "RedHat-6.10",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wsconvenios_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web1svconve001p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws-convenios12c",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "web2svconve001p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Apache_Httpd"
+  ],
+  "release": "Apache/2.4.6",
+  "dominio": "ws-convenios12c",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1svconve005p",
+  "time": "DCPER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12",
+  "dominio": "wsconvenios12c2_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2svconve005p",
+  "time": "DCPER",
+  "versao_so": "CentOS-7",
+  "tipo_so": "CentOS",
+  "negocio": "Convenios",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 12",
+  "dominio": "wsconvenios12c2_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1siccobi001p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.4",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wspgboleto_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1siccobi002p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wspgboleto_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1siccobi003p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wspgboleto_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1siccobi004p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wspgboleto_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1siccobi005p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wspgboleto_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app1siccobi006p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.9",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wspgboleto_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2siccobi001p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.4",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wspgboleto_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2siccobi002p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.4",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wspgboleto_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2siccobi003p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.4",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wspgboleto_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2siccobi004p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.4",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wspgboleto_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2siccobi005p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.4",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wspgboleto_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ },
+ {
+  "hostname": "app2siccobi006p",
+  "time": "DCPER",
+  "versao_so": "RedHat-7.4",
+  "tipo_so": "RHEL",
+  "negocio": "Cobrança",
+  "tecnologias": [
+   "Oracle_WebLogic"
+  ],
+  "release": "WLS 11G",
+  "dominio": "wspgboleto_domain",
+  "situacao": null,
+  "criticidade": null,
+  "ambiente": "PROD",
+  "versao_java": null,
+  "observacao": null
+ }
+]

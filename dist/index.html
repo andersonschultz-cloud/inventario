@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#071A12">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Inventário de Infraestrutura · Sicredi</title>
+  <meta name="description" content="Dashboard executivo, inventário, topologia e gestão de servidores">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles/main.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23146E37'/><path d='M50 19c5 0 7 11 4 18 7-5 18-6 20-1s-8 11-16 11c8 3 15 12 12 17s-14 0-19-7c1 9-4 19-10 18s-7-13-3-20c-7 5-19 4-20-2s10-11 18-9c-8-4-14-14-10-18s14 1 18 9c-1-9 1-16 6-16z' fill='%23fff'/></svg>">
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <div class="app-frame">
+    <aside id="sidebar" class="sidebar" aria-label="Navegação principal">
+      <div class="sidebar-brand-wrap">
+        <a class="brand" href="#/dashboard" aria-label="Ir para o dashboard">
+          <img class="brand-logo" src="assets/sicredi-logo.webp" alt="Sicredi">
+        </a>
+        <p class="brand-product">Inventário de infraestrutura</p>
+      </div>
+
+      <nav id="main-nav" class="main-nav">
+        <a href="#/dashboard" data-route="dashboard">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>
+          <span>Dashboard</span>
+        </a>
+        <a href="#/explorar" data-route="explorar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v4H4zM4 11h16v8H4zM7 14h4M7 17h7"/></svg>
+          <span>Explorar inventário</span>
+        </a>
+        <a href="#/topologia" data-route="topologia">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="18" r="2.5"/><circle cx="19" cy="18" r="2.5"/><path d="M12 7.5v4M12 11.5 5 15.5M12 11.5l7 4"/></svg>
+          <span>Topologia</span>
+        </a>
+        <a href="#/admin" data-route="admin" id="nav-admin" class="hidden">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1-2.8 2.8-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5v.2h-4v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.9.3l-.1.1L4.2 17l.1-.1a1.7 1.7 0 0 0 .3-1.9A1.7 1.7 0 0 0 3.1 14H3v-4h.1a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.9L4.2 7 7 4.2l.1.1a1.7 1.7 0 0 0 1.9.3 1.7 1.7 0 0 0 1-1.5V3h4v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1L19.8 7l-.1.1a1.7 1.7 0 0 0-.3 1.9 1.7 1.7 0 0 0 1.5 1h.1v4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+          <span>Administração</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-foot">
+        <div class="environment-card">
+          <span class="environment-dot"></span>
+          <div><small>Ambiente</small><strong>Produção</strong></div>
+          <span id="mode-badge" class="mode-badge"></span>
+        </div>
+        <div class="sidebar-signature">
+          <span class="signature-icon">EC</span>
+          <div><strong>Core &amp; Crédito</strong><small>Observabilidade corporativa</small></div>
+        </div>
+      </div>
+    </aside>
+
+    <div id="sidebar-backdrop" class="sidebar-backdrop hidden" aria-hidden="true"></div>
+
+    <div class="workspace">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button id="btn-menu" class="menu-button" aria-label="Abrir menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+          <div class="topbar-title">
+            <span class="topbar-kicker">Plataforma de infraestrutura</span>
+            <strong id="topbar-page-title">Dashboard executivo</strong>
+          </div>
+        </div>
+
+        <div class="topbar-search" role="button" tabindex="0" data-open-explore aria-label="Abrir busca no inventário">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+          <span>Pesquisar hosts, domínios e tecnologias</span>
+          <kbd>⌘ K</kbd>
+        </div>
+
+        <div class="topbar-actions">
+          <div id="context-actions" class="context-actions hidden">
+            <button id="btn-export" class="btn btn-ghost" title="Exportar dados filtrados em CSV">CSV</button>
+            <button id="btn-print" class="btn btn-ghost" title="Gerar PNG ou PDF da visão atual">Print/PDF</button>
+            <button id="btn-add" class="btn btn-primary hidden">Novo host</button>
+          </div>
+          <button id="btn-auth" class="profile-button">
+            <span class="profile-avatar">AD</span>
+            <span class="profile-copy"><strong>Administrador</strong><small>Acessar conta</small></span>
+            <span class="profile-chevron">⌄</span>
+          </button>
+        </div>
+      </header>
+
+      <main class="app-shell">
+        <section id="page-dashboard" class="page" data-page="dashboard">
+          <section class="dashboard-hero">
+            <div class="hero-copy">
+              <span class="eyebrow eyebrow-light">Visão executiva</span>
+              <h1>Tudo o que importa.<br><em>Conectado e visível.</em></h1>
+              <p id="dashboard-summary">Carregando indicadores do inventário…</p>
+              <div class="hero-actions">
+                <a class="btn btn-hero" href="#/explorar">Explorar inventário</a>
+                <a class="btn btn-hero-secondary" href="#/topologia">Abrir topologia</a>
+              </div>
+              <div class="hero-trust-row">
+                <span><i class="live-dot"></i> Dados atualizados pelo Supabase</span>
+                <span id="hero-data-quality">Qualidade em processamento</span>
+              </div>
+            </div>
+
+            <div class="hero-visual" aria-label="Visualização tridimensional animada do inventário">
+              <div id="hero-orbit" class="orbit-stage">
+                <div class="orbit-halo halo-a"></div>
+                <div class="orbit-halo halo-b"></div>
+                <div class="orbit-scene">
+                  <div class="orbit-ring ring-a"><i></i><i></i><i></i></div>
+                  <div class="orbit-ring ring-b"><i></i><i></i></div>
+                  <div class="orbit-ring ring-c"><i></i><i></i><i></i></div>
+                  <div class="orb-shell">
+                    <div class="orb-grid grid-lat"></div>
+                    <div class="orb-grid grid-lon"></div>
+                    <div class="orb-glow"></div>
+                    <div class="orb-core">
+                      <div class="cooperative-mark" aria-hidden="true">
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                      </div>
+                    </div>
+                    <span class="orb-node node-a"></span><span class="orb-node node-b"></span><span class="orb-node node-c"></span><span class="orb-node node-d"></span>
+                  </div>
+                </div>
+                <div class="orbit-platform"><span></span></div>
+              </div>
+
+              <article class="hero-float-card hero-card-status">
+                <small>Status da infraestrutura</small>
+                <strong><span class="status-check">✓</span> Saudável</strong>
+                <span id="hero-health-copy">Calculando cobertura</span>
+              </article>
+              <article class="hero-float-card hero-card-active">
+                <small>Hosts ligados</small>
+                <strong id="hero-active-hosts">—</strong>
+                <span>Disponibilidade operacional</span>
+              </article>
+              <article class="hero-float-card hero-card-risk">
+                <small>SO fora de suporte</small>
+                <strong id="hero-risk-hosts">—</strong>
+                <span>Requer plano de atualização</span>
+              </article>
+              <article class="hero-float-card hero-card-components">
+                <small>Componentes associados</small>
+                <strong id="hero-components">—</strong>
+                <span>Mapa de aplicações</span>
+              </article>
+            </div>
+          </section>
+
+          <section id="kpi-cards" class="kpi-grid skeleton-grid" aria-label="Indicadores"></section>
+
+          <section class="dashboard-section-head">
+            <div><span class="eyebrow">Visão analítica</span><h2>Panorama do inventário</h2></div>
+            <p>Todos os gráficos são interativos e abrem a exploração com o filtro correspondente.</p>
+          </section>
+
+          <section class="charts-grid dashboard-charts" aria-label="Gráficos executivos">
+            <article class="panel chart-panel"><header><div><span class="eyebrow">Negócio</span><h2>Domínios por vertical</h2></div><span class="panel-action">Interativo</span></header><div class="chart-box"><canvas id="chart-vertical"></canvas></div></article>
+            <article class="panel chart-panel"><header><div><span class="eyebrow">Aplicações</span><h2>Componentes por domínio</h2></div><span class="panel-action">Top 12</span></header><div class="chart-box chart-tall"><canvas id="chart-components-domain"></canvas></div></article>
+            <article class="panel chart-panel"><header><div><span class="eyebrow">Capacidade</span><h2>Hosts por domínio</h2></div><span class="panel-action">Top 12</span></header><div class="chart-box chart-tall"><canvas id="chart-hosts-domain"></canvas></div></article>
+            <article class="panel chart-panel"><header><div><span class="eyebrow">Stack</span><h2>Tecnologias mais utilizadas</h2></div><span class="panel-action">Top 12</span></header><div class="chart-box chart-tall"><canvas id="chart-tech"></canvas></div></article>
+            <article class="panel chart-panel"><header><div><span class="eyebrow">Middleware</span><h2>Versões WebLogic</h2></div><span class="panel-action">Distribuição</span></header><div class="chart-box"><canvas id="chart-wls"></canvas></div></article>
+            <article class="panel chart-panel"><header><div><span class="eyebrow">Runtime</span><h2>Versões Java</h2></div><span class="panel-action">Inventário</span></header><div class="chart-box"><canvas id="chart-java"></canvas></div></article>
+            <article class="panel chart-panel"><header><div><span class="eyebrow">Sistema operacional</span><h2>Versões de SO</h2></div><span class="panel-action">Ciclo de vida</span></header><div class="chart-box"><canvas id="chart-os"></canvas></div></article>
+            <article class="panel chart-panel"><header><div><span class="eyebrow">Plataforma</span><h2>Famílias de SO</h2></div><span class="panel-action">Distribuição</span></header><div class="chart-box"><canvas id="chart-family"></canvas></div></article>
+          </section>
+        </section>
+
+        <section id="page-explorar" class="page hidden" data-page="explorar">
+          <div class="page-header premium-page-header">
+            <div><span class="eyebrow">Operação e gestão</span><h1>Explorar inventário</h1><p>Pesquise, filtre, exporte e gerencie os hosts sem perder o contexto dos componentes.</p></div>
+            <div class="page-header-orb"><span></span></div>
+          </div>
+
+          <section class="panel filters-panel">
+            <div class="filters-heading"><div><span class="eyebrow">Filtros avançados</span><h2>Refine a visão operacional</h2></div><button id="btn-limpar" class="btn btn-ghost filter-clear">Limpar filtros</button></div>
+            <div class="filters-row">
+              <label class="search-field"><span>Busca global</span><input id="f-busca" type="search" placeholder="Host, domínio, componente, tecnologia…" autocomplete="off"></label>
+              <label><span>Time</span><select id="f-time"><option value="">Todos</option></select></label>
+              <label><span>Domínio</span><select id="f-dominio"><option value="">Todos</option></select></label>
+              <label><span>Componente</span><select id="f-componente"><option value="">Todos</option></select></label>
+              <label><span>Tecnologia</span><select id="f-tec"><option value="">Todas</option></select></label>
+              <label><span>Vertical</span><select id="f-vertical"><option value="">Todas</option></select></label>
+              <label><span>WebLogic</span><select id="f-weblogic"><option value="">Todas</option></select></label>
+              <label><span>Versão SO</span><select id="f-so"><option value="">Todas</option></select></label>
+              <label><span>Família SO</span><select id="f-familia"><option value="">Todas</option></select></label>
+              <label><span>Java</span><select id="f-java"><option value="">Todas</option></select></label>
+              <label><span>Ambiente</span><select id="f-ambiente"><option value="">Todos</option></select></label>
+              <label><span>Status</span><select id="f-situacao"><option value="">Todos</option></select></label>
+              <label><span>Estado operacional</span><select id="f-atividade"><option value="">Todos</option><option value="ligado">Ligados</option><option value="desativado">Desativados</option><option value="sem_status">Sem status</option></select></label>
+              <label><span>Saúde do SO</span><select id="f-saude-so"><option value="">Todas</option><option value="ok">Suportado</option><option value="warn">Suporte estendido</option><option value="eol">Fora de suporte</option><option value="neutral">Não classificado</option></select></label>
+            </div>
+            <div id="filter-summary" class="filter-summary"></div>
+          </section>
+
+          <section class="explore-insights" aria-label="Indicadores e gráficos da visão filtrada">
+            <header class="explore-insights-head">
+              <div><span class="eyebrow">Visão filtrada</span><h2>Indicadores operacionais</h2></div>
+              <p id="explore-insights-summary">Os gráficos acompanham os filtros aplicados.</p>
+            </header>
+            <section id="explore-kpis" class="kpi-grid explore-kpi-grid" aria-label="Indicadores filtrados"></section>
+            <section class="charts-grid explore-charts">
+              <article class="panel chart-panel"><header><div><span class="eyebrow">Disponibilidade</span><h2>Hosts ligados e desativados</h2></div></header><div class="chart-box"><canvas id="explore-chart-activity"></canvas><div class="chart-empty hidden">Sem dados para os filtros atuais.</div></div><p class="chart-note">Desativados reúne Desligado, Removido e Remover (validar).</p></article>
+              <article class="panel chart-panel"><header><div><span class="eyebrow">Risco tecnológico</span><h2>Saúde dos sistemas operacionais</h2></div></header><div class="chart-box"><canvas id="explore-chart-so-health"></canvas><div class="chart-empty hidden">Sem dados para os filtros atuais.</div></div><p class="chart-note">RHEL 7 é sinalizado como suporte estendido; versões encerradas ficam em fora de suporte.</p></article>
+              <article class="panel chart-panel"><header><div><span class="eyebrow">Distribuição</span><h2>Hosts por domínio</h2></div></header><div class="chart-box chart-tall"><canvas id="explore-chart-domain"></canvas><div class="chart-empty hidden">Sem dados para os filtros atuais.</div></div></article>
+              <article class="panel chart-panel"><header><div><span class="eyebrow">Ciclo de vida</span><h2>Versões de sistema operacional</h2></div></header><div class="chart-box chart-tall"><canvas id="explore-chart-so-version"></canvas><div class="chart-empty hidden">Sem dados para os filtros atuais.</div></div></article>
+            </section>
+          </section>
+
+          <section class="panel inventory-panel">
+            <div class="inventory-panel-head"><div><span class="eyebrow">Registros</span><h2>Hosts do inventário</h2></div><span id="inventory-live-label" class="panel-action">Dados em tempo real</span></div>
+            <div class="table-wrap">
+              <table id="hosts-table">
+                <thead><tr>
+                  <th data-sort="hostname">Hostname</th><th data-sort="time">Time</th><th data-sort="dominio">Domínio</th>
+                  <th data-sort="vertical_negocio">Vertical</th><th data-sort="component_count">Componentes</th>
+                  <th>Tecnologias</th><th>WebLogic</th><th data-sort="versao_so">SO</th><th data-sort="so_health">Saúde SO</th>
+                  <th data-sort="versao_java">Java</th><th data-sort="situacao">Situação</th><th class="col-actions"></th>
+                </tr></thead>
+                <tbody id="hosts-tbody"></tbody>
+              </table>
+            </div>
+            <div class="table-footer"><span id="table-count"></span><div class="pager"><button id="pg-prev" class="btn btn-ghost">‹</button><span id="pg-info"></span><button id="pg-next" class="btn btn-ghost">›</button></div></div>
+          </section>
+        </section>
+
+        <section id="page-topologia" class="page hidden" data-page="topologia">
+          <div class="page-header split-header premium-page-header">
+            <div><span class="eyebrow">Mapa de aplicações</span><h1>Topologia dos domínios</h1><p>Expanda um domínio para visualizar dois ramos independentes: componentes associados e hosts vinculados diretamente ao domínio.</p></div>
+            <div class="topology-controls">
+              <input id="topology-search" type="search" placeholder="Buscar domínio, componente ou host">
+              <label class="switch-row"><input id="topology-incomplete" type="checkbox"><span>Somente incompletos</span></label>
+              <button id="topology-expand-all" class="btn btn-ghost">Expandir/recolher</button>
+            </div>
+          </div>
+          <div id="topology-count" class="section-count"></div>
+          <section id="topology-list" class="topology-list"></section>
+        </section>
+
+        <section id="page-admin" class="page hidden" data-page="admin">
+          <div class="page-header premium-page-header"><div><span class="eyebrow">Qualidade dos dados</span><h1>Administração</h1><p>Revise domínios sem correspondência segura e faça associações manuais auditáveis.</p></div></div>
+          <section class="panel admin-summary"><div><span class="eyebrow">Fila de importação</span><h2 id="admin-pending-count">0 registros</h2></div><p>A associação automática é feita apenas quando existe uma correspondência normalizada única.</p></section>
+          <section id="pending-list" class="pending-list"></section>
+        </section>
+      </main>
+
+      <footer class="footer"><span>Inventário de máquinas · Infraestrutura — Aplicações Core e Crédito</span><span>Design System Sicredi · v5.0</span></footer>
+    </div>
+  </div>
+
+  <div id="modal-host" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-host-title">
+    <div class="modal-card">
+      <div class="modal-head"><h2 id="modal-host-title">Novo host</h2><button class="modal-close" data-close aria-label="Fechar">×</button></div>
+      <div class="modal-body"><div class="form-grid">
+        <label>Hostname *<input id="h-hostname" required placeholder="app1exemplo001p"></label>
+        <label>Time *<select id="h-time"></select></label>
+        <label>Domínio<input id="h-dominio" list="dl-dominios" placeholder="ex: osbadm_domain"><datalist id="dl-dominios"></datalist></label>
+        <label>Negócio<input id="h-negocio" list="dl-negocios" placeholder="ex: Crédito"><datalist id="dl-negocios"></datalist></label>
+        <label>Tecnologias<input id="h-tec" list="dl-tecs" placeholder="separe por vírgula"><datalist id="dl-tecs"></datalist></label>
+        <label>Versão do SO<input id="h-versao-so" list="dl-so" placeholder="RedHat-8.10"><datalist id="dl-so"></datalist></label>
+        <label>Família do SO<select id="h-tipo-so"><option value="">—</option><option>RHEL</option><option>CentOS</option><option>Rocky</option><option>Outro</option></select></label>
+        <label>Release<input id="h-release" placeholder="WLS 12.2"></label>
+        <label>Versão Java<input id="h-java" placeholder="JDK 8"></label>
+        <label>Ambiente<select id="h-ambiente"><option>PROD</option><option>NPROD</option><option>HOM</option><option>DEV</option></select></label>
+        <label>Situação<select id="h-situacao"><option>Ligado</option><option>Desligado</option><option>Removido</option><option>Remover (validar)</option></select></label>
+        <label>Criticidade<select id="h-criticidade"><option value="">—</option><option>Alta</option><option>Média</option><option>Baixa</option></select></label>
+        <label class="span-2">Observação<textarea id="h-obs" rows="2"></textarea></label>
+      </div><p id="form-error" class="form-error hidden"></p></div>
+      <div class="modal-foot"><button class="btn btn-ghost" data-close>Cancelar</button><button id="btn-save-host" class="btn btn-primary">Salvar host</button></div>
+    </div>
+  </div>
+
+  <div id="modal-print" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-card modal-sm">
+      <div class="modal-head"><h2>Exportar visão atual</h2><button class="modal-close" data-close aria-label="Fechar">×</button></div>
+      <div class="modal-body"><p class="muted">Gera um relatório com indicadores, gráficos disponíveis e todos os registros filtrados.</p><p id="print-status" class="muted hidden">Gerando arquivo…</p></div>
+      <div class="modal-foot"><button id="btn-print-png" class="btn btn-primary">PNG</button><button id="btn-print-pdf" class="btn btn-primary">PDF</button></div>
+    </div>
+  </div>
+
+  <div id="modal-auth" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-card modal-sm">
+      <div class="modal-head"><h2>Acesso restrito</h2><button class="modal-close" data-close aria-label="Fechar">×</button></div>
+      <div class="modal-body"><p class="muted">Usuários autenticados recebem permissões conforme o papel viewer, editor ou admin.</p><label>E-mail<input id="auth-email" type="email" autocomplete="email"></label><label>Senha<input id="auth-pass" type="password" autocomplete="current-password"></label><p id="auth-error" class="form-error hidden"></p></div>
+      <div class="modal-foot"><button id="btn-signup" class="btn btn-ghost">Criar conta</button><button id="btn-login" class="btn btn-primary">Entrar</button></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden" role="status"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

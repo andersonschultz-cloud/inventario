@@ -1,0 +1,10 @@
+{
+  "name": "inventario-hosts",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node tests/normalization.test.mjs && node tests/data.test.mjs && node tests/risk.test.mjs && node tests/topology.test.mjs && node tests/ui.test.mjs"
+  }
+}
