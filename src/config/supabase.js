@@ -13,8 +13,8 @@
 // MODO DEMO (somente leitura, dados do arquivo data/hosts.json).
 // ============================================================
 
-export const SUPABASE_URL = 'https://wmetxgvvbpkuogzcghxr.supabase.co';       // ex: 'https://xxxxx.supabase.co'
-export const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndtZXR4Z3Z2YnBrdW9nemNnaHhyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI5MzI5OTQsImV4cCI6MjA5ODUwODk5NH0.AysBHRtwXXW9m4dkxPVPLL83LQ_T_aHQjWA7pzgdFEU';  // ex: 'eyJhbGciOi...'
+export const SUPABASE_URL = 'https://xxxwmetxgvvbpkuogzcghxr.supabase.co';       // ex: 'https://xxxxx.supabase.co'
+export const SUPABASE_ANON_KEY = 'xxxeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndtZXR4Z3Z2YnBrdW9nemNnaHhyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI5MzI5OTQsImV4cCI6MjA5ODUwODk5NH0.AysBHRtwXXW9m4dkxPVPLL83LQ_T_aHQjWA7pzgdFEU';  // ex: 'eyJhbGciOi...'
 
 export const isConfigured = () =>
   Boolean(SUPABASE_URL && SUPABASE_ANON_KEY);
